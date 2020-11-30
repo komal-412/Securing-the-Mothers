@@ -38,6 +38,11 @@ flex-direction: row;
         align-items: center;
     }
   }
+@media (max-width: 768px) {
+    #first {
+      width: 100%;
+    }
+  }
 
 .inner2{
     display: flex;
@@ -52,6 +57,22 @@ flex-direction: row;
             align-items: center;
         }
       }
+
+@media (max-width: 768px) {
+    #second {
+      width: 100%;
+    }
+  }
+@media (max-width: 768px) {
+    #third {
+      width: 100%;
+    }
+  }
+@media (max-width: 768px) {
+    #fourth {
+      width: 100%;
+    }
+  }
 
 
 .last{
