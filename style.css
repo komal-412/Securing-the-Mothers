@@ -14,6 +14,7 @@
     .containers {
       flex-direction: column;
         justify-content:center;
+        align-items: center;
     }
   }
 
@@ -27,12 +28,14 @@
 display: flex;
 justify-content: space-evenly;
 flex-direction: row;
+    
 }
 
 @media (max-width: 768px) {
     .inner1 {
       flex-direction: column;
-        justify-content:center; 
+        justify-content:center;
+        align-items: center;
     }
   }
 
@@ -46,6 +49,7 @@ flex-direction: row;
         .inner2 {
           flex-direction: column;
              justify-content:center;
+            align-items: center;
         }
       }
 
