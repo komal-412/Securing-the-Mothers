@@ -96,22 +96,30 @@ height:300px;
 width: 300px;
 border-radius:50%;
 }
+@media (min-width: 768px){
 #first{
 
 width: 40%;
 }
-#third{
-
-width: 40%;
 }
-#second{
-
-width: 40%;
-}
-#fourth{
-
-width: 40%;
-}
+@media (min-width: 768px){
+    #second{
+    
+    width: 40%;
+    }
+    }
+    @media (min-width: 768px){
+        #third{
+        
+        width: 40%;
+        }
+        }
+        @media (min-width: 768px){
+            #fourth{
+            
+            width: 40%;
+            }
+            }
 
 /*.container1 {
 
